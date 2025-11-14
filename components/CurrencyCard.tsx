@@ -34,10 +34,10 @@ export default function CurrencyCard({
         </View>
 
         <View style={{ flex: 1 }} />
-        {/* intentionally no top balance here */}
+       
       </View>
 
-      {/* big value */}
+     
       <View style={styles.valueRow}>
         <Text style={styles.bigValue}>{value}</Text>
       </View>
