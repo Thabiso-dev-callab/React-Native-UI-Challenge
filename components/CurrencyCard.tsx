@@ -37,7 +37,7 @@ export default function CurrencyCard({
       
       </View>
 
-      {/* big value */}
+     
       <View style={styles.valueRow}>
         <Text style={styles.bigValue}>{value}</Text>
       </View>
