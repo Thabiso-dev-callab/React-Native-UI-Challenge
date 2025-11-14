@@ -37,7 +37,7 @@ export default function ExchangeScreen() {
 
         
         <View style={styles.cardBlock}>
-          {/* first card: ETH - bottom balance shown */}
+          
           <CurrencyCard
             symbol="⟠"
             label="ETH"
