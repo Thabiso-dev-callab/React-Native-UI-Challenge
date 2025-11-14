@@ -42,7 +42,7 @@ export default function CurrencyCard({
         <Text style={styles.bigValue}>{value}</Text>
       </View>
 
-      {/* bottom row: 'Balance' on the left, amount on the right */}
+     
       <View style={styles.bottomRow}>
         <Text style={styles.balanceLabel}>Balance</Text>
         <View style={{ flex: 1 }} />
