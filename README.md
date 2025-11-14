@@ -28,4 +28,4 @@ All repeating code is componentized so it’s easy to reuse.
 No external icon libraries required — placeholders are used. 
 
 Author
-Thabiso Magagula
+Thabiso Magagula.
