@@ -19,7 +19,7 @@ export default function ExchangeScreen() {
     <SafeAreaView style={styles.safe}>
       <StatusBar barStyle="light-content" backgroundColor="#0b0709" />
       <View style={styles.container}>
-        {/* Header */}
+       
         <View style={styles.headerRow}>
           <Pressable style={styles.iconBtn}>
             <Text style={styles.headerChevron}>‹</Text>
@@ -35,7 +35,7 @@ export default function ExchangeScreen() {
           </View>
         </View>
 
-        {/* Card block */}
+        
         <View style={styles.cardBlock}>
           {/* first card: ETH - bottom balance shown */}
           <CurrencyCard
