@@ -6,11 +6,11 @@ const { width: SCREEN_WIDTH } = Dimensions.get("window");
 const isSmall = SCREEN_WIDTH < 360;
 
 type Props = {
-  symbol: string;      // '⟠' or '$'
-  label: string;       // 'ETH' or 'USD'
-  value: string;       // big number string "12,695"
-  balance?: string;    // bottom-right small balance "293.0187"
-  showCaret?: boolean; // show caret next to label (true by default)
+  symbol: string;      
+  label: string;       
+  value: string;       
+  balance?: string;    
+  showCaret?: boolean; 
 };
 
 export default function CurrencyCard({
@@ -22,7 +22,7 @@ export default function CurrencyCard({
 }: Props) {
   return (
     <View style={styles.card}>
-      {/* Top row: icon + label (no balance here) */}
+     
       <View style={styles.topRow}>
         <IconPlaceholder style={styles.iconWrap}>{symbol}</IconPlaceholder>
 
