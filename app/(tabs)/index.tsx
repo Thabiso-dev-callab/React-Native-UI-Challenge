@@ -46,7 +46,7 @@ export default function ExchangeScreen() {
             showCaret={true}
           />
 
-          {/* divider with swap */}
+        
           <View style={styles.dividerRow}>
             <View style={styles.dividerLine} />
             <View style={styles.swapCircle}>
@@ -54,7 +54,7 @@ export default function ExchangeScreen() {
             </View>
           </View>
 
-          {/* second card: USD - bottom balance shown */}
+         
           <CurrencyCard
             symbol="$"
             label="USD"
@@ -96,7 +96,7 @@ export default function ExchangeScreen() {
   );
 }
 
-/* same styles as before — keep unchanged */
+
 const PAD = 18;
 const CARD_RADIUS = 20;
 
@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: "50%",
     left: -12,
-    right: -18,
+    right: -12,
     width: "100%",
     height: 1.2,
     backgroundColor: "rgba(0,0,0,0.4)",
